@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">test42</string>
+    <string name="hello">La réponse est 42 !</string>
+    <string name="buttText">bli</string>
+    <string name="Bplus">+</string>
+    <string name="RAZ">RAZ</string>
+    <string name="credits">By Nicogeta a.k.a Ostrich_Sigma</string>
+</resources>

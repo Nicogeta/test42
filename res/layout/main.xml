@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#ff9144">
+    <TextView
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:id="@+id/textView"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="76dp" android:layout_alignParentTop="true"
+            android:layout_marginTop="52dp"/>
+    <Button
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:text="@string/buttText"
+            android:id="@+id/Bbli"
+            android:clickable="true"
+            android:enabled="true"
+            android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="110dp" android:layout_alignRight="@+id/textView"/>
+    <EditText
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="42"
+            android:id="@+id/nbOne"
+            android:autoText="false"
+            android:gravity="center"
+            android:layout_alignRight="@+id/Bbli" android:layout_below="@+id/Bbli"/>
+    <EditText android:layout_width="95dp" android:layout_height="wrap_content" android:text="42"
+              android:id="@+id/nbTwo"
+              android:autoText="false"
+              android:gravity="center"
+              android:layout_alignRight="@+id/Bbli" android:layout_below="@+id/Bbli"
+              android:layout_marginTop="50dp"/>
+    <Button
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Bplus"
+            android:id="@+id/Bplus"
+            android:layout_toRightOf="@+id/Bbli" android:layout_below="@+id/nbOne"
+            android:layout_alignParentRight="true"/>
+    <EditText
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/resultat"
+            android:layout_alignLeft="@+id/nbOne" android:layout_below="@+id/nbTwo"
+            android:layout_alignRight="@+id/Bbli" android:gravity="center" android:textStyle="bold"
+            android:editable="@bool/resulEdit"/>
+    <Button
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:text="@string/RAZ"
+            android:id="@+id/Braz"
+            android:layout_toLeftOf="@+id/nbOne" android:layout_below="@+id/nbOne"
+            android:layout_alignParentLeft="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="@string/credits"
+            android:id="@+id/textView1"
+            android:layout_alignLeft="@+id/Braz" android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/Bplus"
+            android:layout_below="@+id/resultat" android:background="#86c1ff" android:typeface="monospace"
+            android:gravity="center" android:textColor="#010000"/>
+</RelativeLayout>
